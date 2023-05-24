@@ -9,6 +9,7 @@
             <div class="panel-heading">
               <h3 class="panel-title">Halaman Utama [<?php echo $this->session->userdata('nama')  ?>]</h3>
               <p class="panel-subtitle">Tanggal : <?php echo date('Y-m-d'); ?></p>
+              <p class="panel-subtitle">Tanggal : <?php echo phpinfo(); ?></p>
             </div>
             <div class="panel-body">
               <div class="row">

@@ -10,8 +10,7 @@ class Home extends CI_Controller {
 			redirect(base_url("login"));
 		}
 	}
-	public function index()
-	{
+	public function index(){
 		$this->load->view('template/header');
 		$this->load->view('template/sidebar');
 		$this->load->view('home');
